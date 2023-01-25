@@ -54,15 +54,20 @@ header #phone{
   margin-left: 10px;
 }
 
-#links{
-  float:right;
+#rightHeader
+{
+  margin-left: auto;
+}
+
+#links
+{
+  padding-top: 50px;
 }
 
 #links a{
-  float:top;
-  display: flex;
   color: azure;
-
+  display: block;
+  padding-bottom: 2px;
 }
 
 #avatar {
@@ -93,8 +98,32 @@ nav{
 aside{
   width:20%;
   background-color:rgb(71, 71, 71);
-  padding: 20px;
 }
+
+.asideTitle{
+  background-color:rgb(44, 44, 44);
+  color: azure;
+}
+
+.asideTitle p{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bars{
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+aside p{
+  color: azure;
+}
+
+progress::-moz-progress-bar { background: azure; }
+progress::-webkit-progress-value { background: azure; }
+progress { color: azure; }
 
 main {
   display: flex;
@@ -104,7 +133,6 @@ main {
 
 .mainBody{
   display: flex;
-  float: left;
 }
 
 .column{
@@ -114,7 +142,25 @@ main {
   padding:20px;
 }
 
+.columnYear{
+  float:left;
+  width:20%;
+  padding:5px;
+}
+
+.columnSpace{
+  float:left;
+  width:10%;
+  padding:5px;
+
+}
+
+.columnList{
+  float:left;
+  width:80%;
+  padding:5px;
+}
 
 .column p {
-  color: red;
+  color: rgb(27, 27, 27);
   }
