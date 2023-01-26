@@ -9,6 +9,246 @@
             "id": "xrayskills",
             "en": "X-Ray Skills",
             "es": "Habilidad con Rayos X"
+        },
+        {
+            "id": "fourHandedDent",
+            "en": "4 Handed Dentistry",
+            "es": "Tratamiento a 4 manos"
+        },
+        {
+            "id": "dentalPre",
+            "en": "Dental Procedure Preparation",
+            "es": "Preparación de Tratamiento Dental"
+        },
+        {
+            "id": "dentalDoc",
+            "en": "Dental Procedure Documentation",
+            "es": "Documentación de Tratamiento Dental"
+        },
+        {
+            "id": "dentistEq",
+            "en": "Dentist Equipment Maintenance",
+            "es": "Mantenimiento de Equipamiento de Dentista"
+        },
+        {
+            "id": "softSkills",
+            "en": "Soft Skills",
+            "es": "Habilidades Ligeras"
+        },
+        {
+            "id": "compassion",
+            "en": "Compassion",
+            "es": "Compasión"
+        },
+        {
+            "id": "teamwork",
+            "en": "Teamwork",
+            "es": "Trabajo en Equipo"
+        },
+        {
+            "id": "greatAttitude",
+            "en": "Great Attitude",
+            "es": "Buena Actitud"
+        },
+        {
+            "id": "customerService",
+            "en": "Customer Service",
+            "es": "Servicio al Cliente"
+        },
+        {
+            "id": "languages",
+            "en": "Languages",
+            "es": "Idiomas"
+        },
+        {
+            "id": "english",
+            "en": "English",
+            "es": "Inglés"
+        },
+        {
+            "id": "spanish",
+            "en": "Spanish",
+            "es": "Español"
+        },
+        {
+            "id": "german",
+            "en": "German",
+            "es": "Alemán"
+        },
+        {
+            "id": "exp",
+            "en": "Experience",
+            "es": "Experiencia"
+        },
+        {
+            "id": "hamptomDentalSpa",
+            "en": "Hampton Dental Spa",
+            "es": "Spa Dental de Hampton"
+        },
+        {
+            "id": "bullet1",
+            "en": "Responsible for providing patient care, taking X-Rays, dental procedure, assisting, scheduling appointments, and record keeping.",
+            "es": "Responsable de proveer cuidados a los pacientes, tomar Rayos X, asistir, dar turnos y guardar informes"
+        },
+        {
+            "id": "bullet2",
+            "en": "Received 95% positive customer comments. Frequently received a monthtly bonus as a valuable employee. Got five unsolicited patient thank you letters.",
+            "es": "Recibí un 95% de comentarios positivos de clientes. Frecuentemente recibí un bono de empleada valiosa. Recibí cinco cartas de agradecimiento de pacientes sin solicitarlo."
+        },
+        {
+            "id": "bullet3",
+            "en": "Given three commendations for efficient 4-handed dentistry from Dr. Hampton.",
+            "es": "Recibí tres comendaciones por operaciones a 4 manos eficientes por parte del Dr. Hampton."
+        },
+        {
+            "id": "bullet4",
+            "en": "Decreased setup time for dental procedure preparation by 50%.",
+            "es": "Reduje el tiempo de preparación para procesos dentales por un 50%."
+        },
+        {
+            "id": "bullet5",
+            "en": "Trained other staff members in digital X-Ray skills.",
+            "es": "Entrené a otros miembros del staff en el manejo de los Rayos X digitales."
+        },
+        {
+            "id": "brayDental",
+            "en": "Bray Dental Clinic",
+            "es": "Clínica Dental de Bray"
+        },
+        {
+            "id": "bullet6",
+            "en": "Responsible for patient care, appointment scheduling, dental procedure, documentation, 4-handed dentistry and other duties.",
+            "es": "Responsable por el cuidado de pacientes, tomar turnos, procesos dentales, documentación, operaciones a 4 manos y otras tareas."
+        },
+        {
+            "id": "bullet7",
+            "en": "Decreased inventory costs by 25% through organizing supplies into a more efficient system. Cut wasted time in documentation by 22%.",
+            "es": "Reduje el costo de inventario por un 25% organizando objetos con un sistema más eficiente. Corté con el tiempo perdido en documentar un 22%."
+        },
+        {
+            "id": "bullet8",
+            "en": "During my employment, patient satisfaction scores for the entire practice rose by 225%. Dr. Bray assigned most of the increase to my listening skills.",
+            "es": "Mientras estuve empleada, los puntos de satisfacción del sanatorio entero subió por un 225%. El Dr. Bray le asignó la mayoría del incremento a mi capacidad de escuchar a pacientes."
+        },
+        {
+            "id": "bullet9",
+            "en": "Performed CPR on a patient who had an infection during a procedure.",
+            "es": "Di RCP a un paciente que tuvo una infección en el medio de una operación"
+        },
+        {
+            "id": "bullet10",
+            "en": "Frequently commended for reliability by Dr. Bray and other staff members.",
+            "es": "Frecuentemente elogiada por poder contar conmigo por el Dr.Bray y otros miembros del staff."
+        },
+        {
+            "id": "volunteer",
+            "en": "Volunteer Dental Assistant",
+            "es": "Voluntaria de Asistente Dental"
+        },
+        {
+            "id": "bullet11",
+            "en": "Volunteered for Dr. Ashton Siebert, DDS, PA as a dental assistant.",
+            "es": "Voluntaria para el Dr. Ashton Siebert, Doctor de Cirugia Dental, Pennsylvania como asistente dental."
+        },
+        {
+            "id": "bullet12",
+            "en": "Volunteered for Dr. Tate Caswell, DDS, PA as a dental assistant.",
+            "es": "Voluntaria para el Dr. Tate Caswell, Doctor de Cirugia Dental, Pennsylvania como asistente dental."
+        },
+        {
+            "id": "bullet13",
+            "en": "Frequently received high customer comment scores of 95% positive or more.",
+            "es": "A menudo recibí puntaje alto de clientes de 95% o más positivo."
+        },
+        {
+            "id": "bullet14",
+            "en": "Displayed high efficiency in dental procedure preparation.",
+            "es": "Demostré una eficiencia alta en la preparación de operaciones dentales."
+        },
+        {
+            "id": "education",
+            "en": "Education",
+            "es": "Educación"
+        },
+        {
+            "id": "smileWright",
+            "en": "Smile Wright Dental Assistant School",
+            "es": "Escuela de Asistente Dental Smile Wright"
+        },
+        {
+            "id": "bullet15",
+            "en": "Completed 13-week Smile wright Dental Assistant School training program.",
+            "es": "Complete el programa de entrenamiento de 13 semanas de la Escuela de Asistente Dental Smile Wright."
+        },
+        {
+            "id": "bullet16",
+            "en": "Performed a full externship with a practicing dentist.",
+            "es": "Logré una pasantía completa con un dentista practicante."
+        },
+        {
+            "id": "bullet17",
+            "en": "Executed 195 hours of lecture and lab training.",
+            "es": "Ejecuté 195 horas de cátedras y entrenamiento de laboratorio."
+        },
+        {
+            "id": "bullet18",
+            "en": "Followed my passion for learning to operate X-Ray equipment, digital X-Ray operation and educating patients in upcoming procedures.",
+            "es": "Seguí mi pasión por aprender a operar equipamento de Rayos X, operaciones de Rayos X digitales y educar a pacientes en operaciones venideras."
+        },
+        {
+            "id": "certificates",
+            "en": "Certificates",
+            "es": "Certificados"
+        },
+        {
+            "id": "certificatesSmall",
+            "en": "Certificates",
+            "es": "Certificados"
+        },
+        {
+            "id": "bullet19",
+            "en": "Pennsylvania State Dental Radiological Procedure Certification.",
+            "es": "Certificación de Operaciones Radiológicas Dentales del Estado de Pennsylvania."
+        },
+        {
+            "id": "bullet20",
+            "en": "EFDA (Expanded Function Dental Assistant).",
+            "es": "ADFE (Asistente Dental de Funciones Expandidas)"
+        },
+        {
+            "id": "bullet21",
+            "en": "National Certified Dental Assistant Certification.",
+            "es": "Certificado Nacional de Asistente Dental."
+        },
+        {
+            "id": "additionalActivities",
+            "en": "Additional Activities",
+            "es": "Actividades Adicionales"
+        },
+        {
+            "id": "additionalActivitiesSmall",
+            "en": "Additional Activities",
+            "es": "Actividades Adicionales"
+        },
+        {
+            "id": "bullet22",
+            "en": "Member, PA Dental Assistant's Association.",
+            "es": "Miembra de la Asociacion de Asistentes Dentales de Pennsylvania."
+        },
+        {
+            "id": "bullet23",
+            "en": "Participate in a weekly softball league to hone my interpersonal skills.",
+            "es": "Participo en una liga de softball semanal para mejorar mis habilidades interpersonales."
+        },
+        {
+            "id": "bullet24",
+            "en": "Volunteer at the local animal shelter on Sundays, walking dogs, cleaning cages, feeding animals, administering medicines, cleaning building.",
+            "es": "Voluntaria en el asilo de animales local los domingos, pasear perros, limpiar jaulas, alimentar animales, administrar medicinas, limpiar el edificio."
+        },
+        {
+            "id": "footerMessage",
+            "en": "Designed by Pablo Daniel Sueiro for Argentina Programa -  2023",
+            "es": "Diseñado por Pablo Daniel Sueiro para Argentina Programa -  2023"
         }
     ]
 }

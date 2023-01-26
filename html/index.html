@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">   
+             
     <link rel="stylesheet" href="../css/style.css" />
 </head>
 
@@ -37,20 +39,22 @@
 
                 <div id="toggleLang">
                     <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
-                    <label class="btn btn-secondary" for="option1" onclick="ReplaceTextEnglish()"> <img src="../images/english.png"></label>
+                    <label class="btn btn-secondary" for="option1" onclick="ReplaceTextEnglish()"> <img
+                            src="../images/english.png"></label>
                     <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
-                    <label class="btn btn-secondary" for="option2" onclick="ReplaceTextSpanish()"><img src="../images/spanish.png"></label>
+                    <label class="btn btn-secondary" for="option2" onclick="ReplaceTextSpanish()"><img
+                            src="../images/spanish.png"></label>
                     <script src="../js/script.js"></script>
                 </div>
 
                 <div id="links">
-                    
+
                     <a href="www.twitter.com"><img src="../images/twitter.png">Twitter</a>
-                    
+
                     <a href="www.youtube.com"><img src="../images/youtube.png">Youtube</a>
-                    
+
                     <a href="www.facebook.com"><img src="../images/facebook.png">Facebook</a>
-                    
+
                     <a href="www.youtube.com"><img src="../images/insta.png">Instagram</a>
 
                 </div>
@@ -61,7 +65,35 @@
     </header>
 
     <nav>
+        <p> " " </p>
+        <div id="drp">
+            <div class="dropdown show">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                </a>
 
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+                    <div id ="contactForm">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Example label</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                          </div>
+                          <div class="form-group">
+                            <label for="formGroupExampleInput2">Another label</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                          </div>
+                          <div class="form-group">
+                            <label for="formGroupExampleInput2">Another label</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                          </div>
+                    </div>
+
+                    <a class="dropdown-item" href="#">Send</a>
+                </div>
+            </div>
+        </div>
     </nav>
 
 
@@ -69,49 +101,49 @@
 
         <aside>
             <div class="asideTitle">
-                <p id = "hardSkills">
-                    Hard Skillz
+                <p id="hardSkills">
+                    Hard Skills
                 </p>
             </div>
 
             <div class="bars">
-                <p id ="xrayskills">X-Ray Skills</p>
+                <p id="xrayskills">X-Ray Skills</p>
                 <progress max="100" value="100"></progress>
-                <p id ="fourHandedDent">4 Handed Dentistry</p>
+                <p id="fourHandedDent">4 Handed Dentistry</p>
                 <progress max="100" value="100"></progress>
-                <p id ="dentalPre">Dental Procedure Preparation</p>
+                <p id="dentalPre">Dental Procedure Preparation</p>
                 <progress max="100" value="80"></progress>
-                <p id = "dentalDoc">Dental Procedure Documentation</p>
+                <p id="dentalDoc">Dental Procedure Documentation</p>
                 <progress max="100" value="70"></progress>
-                <p id = "dentistEq">Dentist Equipment Maintenance</p>
+                <p id="dentistEq">Dentist Equipment Maintenance</p>
                 <progress max="100" value="50"></progress>
             </div>
 
             <div class="asideTitle">
-                <p id ="softSkills">
+                <p id="softSkills">
                     Soft Skills
                 </p>
             </div>
             <div class="bars">
-                <p id ="compassion">Compassion</p>
+                <p id="compassion">Compassion</p>
                 <progress max="100" value="100"></progress>
                 <p id="teamwork">Teamwork</p>
                 <progress max="100" value="100"></progress>
                 <p id="greatAttitude">Great Attitude</p>
                 <progress max="100" value="80"></progress>
-                <p id ="customerService">Customer Service</p>
+                <p id="customerService">Customer Service</p>
                 <progress max="100" value="70"></progress>
             </div>
             <div class="asideTitle">
-                <p id ="languages">
+                <p id="languages">
                     Languages
                 </p>
             </div>
             <p class="AsideText">
             <div class="bars">
-                <p id ="english">English</p>
+                <p id="english">English</p>
                 <progress max="100" value="100"></progress>
-                <p id = "spanish">Spanish</p>
+                <p id="spanish">Spanish</p>
                 <progress max="100" value="100"></progress>
                 <p id="german">German</p>
                 <progress max="100" value="80"></progress>
@@ -137,16 +169,19 @@
 
                     <div class="columnList">
 
-                        <h4 id ="hamptomDentalSpa">Hampton Dental Spa</h4>
+                        <h4 id="hamptomDentalSpa">Hampton Dental Spa</h4>
 
                         <ul>
-                            <li id = "bullet1">Responsible for providing patient care, taking X-Rays, dental procedure, assisting,
+                            <li id="bullet1">Responsible for providing patient care, taking X-Rays, dental procedure,
+                                assisting,
                                 scheduling appointments, and record keeping.</li>
-                            <li id = "bullet2">Received 95% positive customer comments. Frequently received a monthtly bonus as a
+                            <li id="bullet2">Received 95% positive customer comments. Frequently received a monthtly
+                                bonus as a
                                 valuable employee. Got five unsolicited patient thank you letters.</li>
-                            <li id = "bullet3">Given three commendations for efficient 4-handed dentistry from Dr. Hampton.</li>
-                            <li id = "bullet4">Decreased setup time for dental procedure preparation by 50%.</li>
-                            <li id = "bullet5">Trained other staff members in digital X-Ray skills.</li>
+                            <li id="bullet3">Given three commendations for efficient 4-handed dentistry from Dr.
+                                Hampton.</li>
+                            <li id="bullet4">Decreased setup time for dental procedure preparation by 50%.</li>
+                            <li id="bullet5">Trained other staff members in digital X-Ray skills.</li>
                         </ul>
 
                     </div>
@@ -166,14 +201,18 @@
                         <h4 id="brayDental">Bray Dental Clinic</h4>
 
                         <ul>
-                            <li id = "bullet6">Responsible for patient care, appointment scheduling, dental procedure, documentation,
+                            <li id="bullet6">Responsible for patient care, appointment scheduling, dental procedure,
+                                documentation,
                                 4-handed dentistry and other duties.</li>
-                            <li id = "bullet7">Decreased inventory costs by 25% through organizing supplies into a more efficient
+                            <li id="bullet7">Decreased inventory costs by 25% through organizing supplies into a more
+                                efficient
                                 system. Cut wasted time in documentation by 22%.</li>
-                            <li id = "bullet8">During my employment, patient satisfaction scores for the entire practice rose by 225%.
-                                Dr. BRay assigned most of the increase to my listening skills.</li>
-                            <li id = "bullet9">Performed CPR on a patient who had an infection during a procedure.</li>
-                            <li id = "bullet10">Frequently commended for reliability by Dr. Bray and other staff members.</li>
+                            <li id="bullet8">During my employment, patient satisfaction scores for the entire practice
+                                rose by 225%.
+                                Dr. Bray assigned most of the increase to my listening skills.</li>
+                            <li id="bullet9">Performed CPR on a patient who had an infection during a procedure.</li>
+                            <li id="bullet10">Frequently commended for reliability by Dr. Bray and other staff members.
+                            </li>
                         </ul>
 
                     </div>
@@ -193,12 +232,11 @@
                         <h4 id="volunteer">Volunteer Dental Assistant</h4>
 
                         <ul>
-                            <li id ="bullet11">Responsible for providing patient care, taking X-Rays, dental procedure, assisting,
-                                scheduling appointments, and record keeping.</li>
-                            <li  id ="bullet12">Received 95% positive customer comments. Frequently received a monthtly bonus as a
-                                valuable employee. Got five unsolicited patient thank you letters.</li>
-                            <li  id ="bullet13">Given three commendations for efficient 4-handed dentistry from Dr. Hampton.</li>
-                            <li  id ="bullet14">Decreased setup time for dental procedure preparation by 50%.</li>
+                            <li id="bullet11">Volunteered for Dr. Ashton Siebert, DDS, PA as a dental assistant.</li>
+                            <li id="bullet12">Volunteered for Dr. Tate Caswell, DDS, PA as a dental assistant.</li>
+                            <li id="bullet13">Frequently received high customer comment scores of 95% positive or more.
+                            </li>
+                            <li id="bullet14">Displayed high efficiency in dental procedure preparation.</li>
                         </ul>
 
                     </div>
@@ -206,11 +244,11 @@
                 </div>
 
             </div>
-            <div class = "vertical"></div>
+            <div class="vertical"></div>
             <div class="column">
 
                 <hr class="solid">
-                <h3>Education</h3>
+                <h3 id="education">Education</h3>
                 <hr class="solid">
 
                 <div class="experience">
@@ -223,13 +261,15 @@
 
                     <div class="columnList">
 
-                        <h4>Smile Wright Dental Assistant School</h4>
+                        <h4 id="smileWright">Smile Wright Dental Assistant School</h4>
 
                         <ul>
-                            <li>Completed 13-week Smile wright Dental Assistant School training program.</li>
-                            <li>Performed a full externship with a practicing dentist.</li>
-                            <li>Executed 195 hours of lecture and lab training.</li>
-                            <li>Followed my passion for learning to operate X-Ray equipment, digital X-Ray operation and
+                            <li id="bullet15">Completed 13-week Smile wright Dental Assistant School training program.
+                            </li>
+                            <li id="bullet16">Performed a full externship with a practicing dentist.</li>
+                            <li id="bullet17">Executed 195 hours of lecture and lab training.</li>
+                            <li id="bullet18">Followed my passion for learning to operate X-Ray equipment, digital X-Ray
+                                operation and
                                 educating patients in upcoming procedures.</li>
                         </ul>
 
@@ -239,7 +279,7 @@
 
                 <div class="experience">
                     <hr class="solid">
-                    <h3>Certificates</h3>
+                    <h3 id="certificates">Certificates</h3>
                     <hr class="solid">
 
                     <div class="columnSpace">
@@ -249,12 +289,12 @@
 
                     <div class="columnYearlessList">
 
-                        <h4>Certificates</h4>
+                        <h4 id="certificatesSmall">Certificates</h4>
 
                         <ul>
-                            <li>Pennsylvania State Dental Radiological Procedure Certification.</li>
-                            <li>EFDA (Expanded Function Dental Assistant).</li>
-                            <li>National Certified Dental Assistant Certification.</li>
+                            <li id="bullet19">Pennsylvania State Dental Radiological Procedure Certification.</li>
+                            <li id="bullet20">EFDA (Expanded Function Dental Assistant).</li>
+                            <li id="bullet21">National Certified Dental Assistant Certification.</li>
                         </ul>
 
                     </div>
@@ -263,7 +303,7 @@
 
                 <div class="experience">
                     <hr class="solid">
-                    <h3>Additional Activities</h3>
+                    <h3 id="additionalActivities">Additional Activities</h3>
                     <hr class="solid">
 
                     <div class="columnSpace">
@@ -273,12 +313,14 @@
 
                     <div class="columnYearlessList">
 
-                        <h4>Additional Activities</h4>
+                        <h4 id="additionalActivitiesSmall">Additional Activities</h4>
 
                         <ul>
-                            <li>Member, PA Dental Assistant's Association.</li>
-                            <li>Participate in a weekly softball league to hone my interpersonal skills.</li>
-                            <li>Volunteer at the local animal shelter on Sundays, walking dogs, cleaning cages, feeding
+                            <li id="bullet22">Member, PA Dental Assistant's Association.</li>
+                            <li id="bullet23">Participate in a weekly softball league to hone my interpersonal skills.
+                            </li>
+                            <li id="bullet24">Volunteer at the local animal shelter on Sundays, walking dogs, cleaning
+                                cages, feeding
                                 animals, administering medicines, cleaning building.</li>
                         </ul>
 
@@ -291,7 +333,7 @@
     </div>
 
     <footer>
-        <p>Designed by Pablo Daniel Sueiro for Argentina Programa -  2023</p>
+        <p id="footerMessage">Designed by Pablo Daniel Sueiro for Argentina Programa - 2023</p>
     </footer>
 
     <script src="../js/script.js"></script>
