@@ -1,0 +1,14 @@
+{
+    "lines": [
+        {
+            "id": "hardSkills",
+            "en": "Hard Skills",
+            "es": "Habilidades Sólidas"
+        },
+        {
+            "id": "xrayskills",
+            "en": "X-Ray Skills",
+            "es": "Habilidad con Rayos X"
+        }
+    ]
+}

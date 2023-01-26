@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/style.css" />
 </head>
 
-<body>
+<body onload="Startup()">
     <header>
 
         <div id="headerContent">
@@ -36,24 +36,23 @@
             <div id="rightHeader">
 
                 <div id="toggleLang">
-
-                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                        <label class="btn btn-secondary active">
-                            <input type="radio" name="options" id="option1" autocomplete="off" checked>
-                            <img src="../images/english.png">
-                        </label>
-                        <label class="btn btn-secondary">
-                            <input type="radio" name="options" id="option2" autocomplete="off">
-                            <img src="../images/spanish.png">
-                        </label>
-                    </div>
+                    <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+                    <label class="btn btn-secondary" for="option1" onclick="ReplaceTextEnglish()"> <img src="../images/english.png"></label>
+                    <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                    <label class="btn btn-secondary" for="option2" onclick="ReplaceTextSpanish()"><img src="../images/spanish.png"></label>
+                    <script src="../js/script.js"></script>
                 </div>
 
                 <div id="links">
-                    <a href="www.twitter.com">Twitter</a>
-                    <a href="www.youtube.com">Youtube</a>
-                    <a href="www.facebook.com">Facebook</a>
-                    <a href="www.youtube.com">Instagram</a>
+                    
+                    <a href="www.twitter.com"><img src="../images/twitter.png">Twitter</a>
+                    
+                    <a href="www.youtube.com"><img src="../images/youtube.png">Youtube</a>
+                    
+                    <a href="www.facebook.com"><img src="../images/facebook.png">Facebook</a>
+                    
+                    <a href="www.youtube.com"><img src="../images/insta.png">Instagram</a>
+
                 </div>
 
             </div>
@@ -70,51 +69,51 @@
 
         <aside>
             <div class="asideTitle">
-                <p>
-                    Hard Skills
+                <p id = "hardSkills">
+                    Hard Skillz
                 </p>
             </div>
 
             <div class="bars">
-                <p>X-Ray Skills</p>
+                <p id ="xrayskills">X-Ray Skills</p>
                 <progress max="100" value="100"></progress>
-                <p>4 Handed Dentistry</p>
+                <p id ="fourHandedDent">4 Handed Dentistry</p>
                 <progress max="100" value="100"></progress>
-                <p>Dental Procedure Preparation</p>
+                <p id ="dentalPre">Dental Procedure Preparation</p>
                 <progress max="100" value="80"></progress>
-                <p>Dental Procedure Documentation</p>
+                <p id = "dentalDoc">Dental Procedure Documentation</p>
                 <progress max="100" value="70"></progress>
-                <p>Dentist Equipment Maintenance</p>
+                <p id = "dentistEq">Dentist Equipment Maintenance</p>
                 <progress max="100" value="50"></progress>
             </div>
 
             <div class="asideTitle">
-                <p>
+                <p id ="softSkills">
                     Soft Skills
                 </p>
             </div>
             <div class="bars">
-                <p>Compassion</p>
+                <p id ="compassion">Compassion</p>
                 <progress max="100" value="100"></progress>
-                <p>Teamwork</p>
+                <p id="teamwork">Teamwork</p>
                 <progress max="100" value="100"></progress>
-                <p>Great Attitude</p>
+                <p id="greatAttitude">Great Attitude</p>
                 <progress max="100" value="80"></progress>
-                <p>Customer Service</p>
+                <p id ="customerService">Customer Service</p>
                 <progress max="100" value="70"></progress>
             </div>
             <div class="asideTitle">
-                <p>
+                <p id ="languages">
                     Languages
                 </p>
             </div>
             <p class="AsideText">
             <div class="bars">
-                <p>English</p>
+                <p id ="english">English</p>
                 <progress max="100" value="100"></progress>
-                <p>Spanish</p>
+                <p id = "spanish">Spanish</p>
                 <progress max="100" value="100"></progress>
-                <p>German</p>
+                <p id="german">German</p>
                 <progress max="100" value="80"></progress>
             </div>
             </p>
@@ -123,149 +122,166 @@
 
         <main>
             <div class="column">
-                
-                <h3>Experience</h3>
 
-                <div class ="experience">
+                <hr class="solid">
+                <h3 id="exp">Experience</h3>
+                <hr class="solid">
+
+                <div class="experience">
 
                     <div class="columnYear">
-                        
+
                         <p>2015-2017</p>
-                        
+
                     </div>
 
                     <div class="columnList">
-                    
-                        <h4>Hampton Dental Spa</h4>
-                        
+
+                        <h4 id ="hamptomDentalSpa">Hampton Dental Spa</h4>
+
                         <ul>
-                            <li>Responsible for providing patient care, taking X-Rays, dental procedure, assisting, scheduling appointments, and record keeping.</li>
-                            <li>Received 95% positive customer comments. Frequently received a monthtly bonus as a valuable employee. Got five unsolicited patient thank you letters.</li>
-                            <li>Given three commendations for efficient 4-handed dentistry from Dr. Hampton.</li>
-                            <li>Decreased setup time for dental procedure preparation by 50%.</li>
-                            <li>Trained other staff members in digital X-Ray skills.</li>
-                        </ul> 
-                        
+                            <li id = "bullet1">Responsible for providing patient care, taking X-Rays, dental procedure, assisting,
+                                scheduling appointments, and record keeping.</li>
+                            <li id = "bullet2">Received 95% positive customer comments. Frequently received a monthtly bonus as a
+                                valuable employee. Got five unsolicited patient thank you letters.</li>
+                            <li id = "bullet3">Given three commendations for efficient 4-handed dentistry from Dr. Hampton.</li>
+                            <li id = "bullet4">Decreased setup time for dental procedure preparation by 50%.</li>
+                            <li id = "bullet5">Trained other staff members in digital X-Ray skills.</li>
+                        </ul>
+
                     </div>
 
                 </div>
 
-                <div class ="experience">
+                <div class="experience">
 
                     <div class="columnYear">
-                        
+
                         <p>2013-2015</p>
-                        
+
                     </div>
-                    
+
                     <div class="columnList">
-                    
-                        <h4>Bray Dental Clinic</h4>
-                        
+
+                        <h4 id="brayDental">Bray Dental Clinic</h4>
+
                         <ul>
-                            <li>Responsible for patient care, appointment scheduling, dental procedure, documentation, 4-handed dentistry and other duties.</li>
-                            <li>Decreased inventory costs by 25% through organizing supplies into a more efficient system. Cut wasted time in documentation by 22%.</li>
-                            <li>During my employment, patient satisfaction scores for the entire practice rose by 225%. Dr. BRay assigned most of the increase to my listening skills.</li>
-                            <li>Performed CPR on a patient who had an infection during a procedure.</li>
-                            <li>Frequently commended for reliability by Dr. Bray and other staff members.</li>
-                        </ul> 
-                        
+                            <li id = "bullet6">Responsible for patient care, appointment scheduling, dental procedure, documentation,
+                                4-handed dentistry and other duties.</li>
+                            <li id = "bullet7">Decreased inventory costs by 25% through organizing supplies into a more efficient
+                                system. Cut wasted time in documentation by 22%.</li>
+                            <li id = "bullet8">During my employment, patient satisfaction scores for the entire practice rose by 225%.
+                                Dr. BRay assigned most of the increase to my listening skills.</li>
+                            <li id = "bullet9">Performed CPR on a patient who had an infection during a procedure.</li>
+                            <li id = "bullet10">Frequently commended for reliability by Dr. Bray and other staff members.</li>
+                        </ul>
+
                     </div>
 
                 </div>
 
-                <div class ="experience">
+                <div class="experience">
 
                     <div class="columnSpace">
-                        
+
                         <p>2013</p>
-                        
+
                     </div>
-                    
+
                     <div class="columnList">
-                    
-                        <h4>Volunteer Dental Assistant</h4>
-                        
+
+                        <h4 id="volunteer">Volunteer Dental Assistant</h4>
+
                         <ul>
-                            <li>Responsible for providing patient care, taking X-Rays, dental procedure, assisting, scheduling appointments, and record keeping.</li>
-                            <li>Received 95% positive customer comments. Frequently received a monthtly bonus as a valuable employee. Got five unsolicited patient thank you letters.</li>
-                            <li>Given three commendations for efficient 4-handed dentistry from Dr. Hampton.</li>
-                            <li>Decreased setup time for dental procedure preparation by 50%.</li>
-                        </ul> 
-                        
+                            <li id ="bullet11">Responsible for providing patient care, taking X-Rays, dental procedure, assisting,
+                                scheduling appointments, and record keeping.</li>
+                            <li  id ="bullet12">Received 95% positive customer comments. Frequently received a monthtly bonus as a
+                                valuable employee. Got five unsolicited patient thank you letters.</li>
+                            <li  id ="bullet13">Given three commendations for efficient 4-handed dentistry from Dr. Hampton.</li>
+                            <li  id ="bullet14">Decreased setup time for dental procedure preparation by 50%.</li>
+                        </ul>
+
                     </div>
 
                 </div>
 
             </div>
-
+            <div class = "vertical"></div>
             <div class="column">
+
+                <hr class="solid">
                 <h3>Education</h3>
-                <div class ="experience">
+                <hr class="solid">
+
+                <div class="experience">
 
                     <div class="columnYear">
-                        
+
                         <p>2013</p>
-                        
+
                     </div>
-                    
+
                     <div class="columnList">
-                    
+
                         <h4>Smile Wright Dental Assistant School</h4>
-                        
+
                         <ul>
                             <li>Completed 13-week Smile wright Dental Assistant School training program.</li>
                             <li>Performed a full externship with a practicing dentist.</li>
                             <li>Executed 195 hours of lecture and lab training.</li>
-                            <li>Followed my passion for learning to operate X-Ray equipment, digital X-Ray operation and educating patients in upcoming procedures.</li>
-                        </ul> 
-                        
+                            <li>Followed my passion for learning to operate X-Ray equipment, digital X-Ray operation and
+                                educating patients in upcoming procedures.</li>
+                        </ul>
+
                     </div>
 
                 </div>
 
-                <h3>Certificates</h3>
-
-                <div class ="experience">
+                <div class="experience">
+                    <hr class="solid">
+                    <h3>Certificates</h3>
+                    <hr class="solid">
 
                     <div class="columnSpace">
-                        
-                        
+
+
                     </div>
-                    
-                    <div class="columnList">
-                    
+
+                    <div class="columnYearlessList">
+
                         <h4>Certificates</h4>
-                        
+
                         <ul>
                             <li>Pennsylvania State Dental Radiological Procedure Certification.</li>
                             <li>EFDA (Expanded Function Dental Assistant).</li>
                             <li>National Certified Dental Assistant Certification.</li>
-                        </ul> 
-                        
+                        </ul>
+
                     </div>
 
                 </div>
 
-                <h3>Additional Activities</h3>
-
-                <div class ="experience">
+                <div class="experience">
+                    <hr class="solid">
+                    <h3>Additional Activities</h3>
+                    <hr class="solid">
 
                     <div class="columnSpace">
-                        
-                        
+
+
                     </div>
-                    
-                    <div class="columnList">
-                    
+
+                    <div class="columnYearlessList">
+
                         <h4>Additional Activities</h4>
-                        
+
                         <ul>
                             <li>Member, PA Dental Assistant's Association.</li>
                             <li>Participate in a weekly softball league to hone my interpersonal skills.</li>
-                            <li>Volunteer at the local animal shelter on Sundays, walking dogs, cleaning cages, feeding animals, administering medicines, cleaning building.</li>
-                        </ul> 
-                        
+                            <li>Volunteer at the local animal shelter on Sundays, walking dogs, cleaning cages, feeding
+                                animals, administering medicines, cleaning building.</li>
+                        </ul>
+
                     </div>
 
                 </div>
@@ -275,9 +291,10 @@
     </div>
 
     <footer>
-
+        <p>Designed by Pablo Daniel Sueiro for Argentina Programa -  2023</p>
     </footer>
 
+    <script src="../js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>

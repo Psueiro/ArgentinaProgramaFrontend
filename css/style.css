@@ -70,6 +70,12 @@ header #phone{
   padding-bottom: 2px;
 }
 
+#links img{
+  max-width: 20px;
+  max-height: 20px;
+  margin-right: 5px;
+}
+
 #avatar {
   border-radius: 50%;
   background-color:beige;
@@ -91,7 +97,6 @@ nav{
 {
   display: inline-flex;
   float: left;
-  max-width: 40px;
   max-height: 20px;
 }
 
@@ -121,9 +126,6 @@ aside p{
   color: azure;
 }
 
-progress::-moz-progress-bar { background: azure; }
-progress::-webkit-progress-value { background: azure; }
-progress { color: azure; }
 
 main {
   display: flex;
@@ -161,6 +163,25 @@ main {
   padding:5px;
 }
 
+.columnYearlessList{
+  float:left;
+  width:90%;
+  padding:5px;
+}
+
 .column p {
   color: rgb(27, 27, 27);
+  }
+
+  .vertical {
+    border-left: 1px solid rgb(192, 192, 192);
+    height: auto;
+    left: 50%;
+}
+
+  footer{
+    background-color:beige ;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 2px;
   }
