@@ -84,12 +84,17 @@ header #phone{
 
 nav{
   background-color: beige;
-  padding: 5px;
+  padding: 10px;
 }
 
-nav #drp{
-  float: right;
-  
+.dropdown-menu
+{
+  padding: 20px
+}
+
+#formGroupExampleInput2{
+  width: 300px;
+  margin-bottom: 10px;
 }
 
 #toggleLang
